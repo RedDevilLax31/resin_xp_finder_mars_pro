@@ -76,6 +76,12 @@ struct FILE{
     float bottomLiftSpeed;
     float liftDistance;
     float liftSpeed;
-    byte padding8[087h];
+    float retractSpeed;
+    byte  padding8[083h];
     layerDef lDefs[header.nLayers];
+    local int i;
+    for( i = 0; i < header.nLayers; i++ ){
+        layerRawData lD(lDefs[i].rawDataSize);
+        char endOfLayer <fgcolor=cBlack, bgcolor=cBlack>;
+    }
 } file;
