@@ -1,1 +1,3 @@
 Based on https://github.com/altLab/photon-resin-calibration but adopted for ELEGOO Mars Pro 3d printers.
+
+added another .ctb file for the Mars 2 Pro that has a .25 second exposure multiplier
